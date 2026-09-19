@@ -1,55 +1,83 @@
-# Crownfolio 🍴
+# 🍴 Crownfolio
 
-### Opa, tudo bem?
+> Um site funcional para simular a experiência de um restaurante com sistema de delivery online.
 
-Eu sou Arthur, desenvolvedor Frontend. Meu Currículo está disponível para consulta. Caso tenha interesse, entre em contato pela seção 📬 Contato — lá você encontra todas as informações necessárias.
-📖 Sobre o Projeto
+🔗 [Acesse o site](https://arthurscdev.github.io/crownfolio/)
 
-O Crownfolio é um site funcional criado para simular a experiência de um restaurante com delivery. Ele foi desenvolvido com tecnologias que aprendi e pratiquei com auxílio da IA Copilot.
-Estrutura do site
+[![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](#)
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](#)
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](#)
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](#)
 
-    Apresentação: seção inicial que cativa o visitante.
+---
 
-    Menu: atualmente com 6 opções, todas integradas ao carrinho de compras.
+## 📌 Sobre o Projeto
 
-    Carrinho funcional: permite adicionar pratos e visualizar o pedido, como em apps de delivery.
+O **Crownfolio** é uma aplicação web interativa desenvolvida com o objetivo de simular o fluxo de atendimento e cardápio de um restaurante moderno com delivery.
 
-    Sobre nós: conecta o consumidor com a história e propósito do restaurante.
+A ideia principal do projeto foi consolidar conhecimentos em **React**, manipular estado para o carrinho de compras e explorar a integração do desenvolvimento com auxílio de Inteligência Artificial para refatoração e otimização de código.
 
-    Promoções: seção demonstrativa para destacar ofertas sendo apenas para visualizar.
+![Preview do Crownfolio](./src/assets/preview.png)
 
-    Contato e redes sociais: telefone, endereço, email e links diretos para Instagram e LinkedIn.
+---
 
-    Footer: direitos reservados e assinatura do criador.
+## ✨ Funcionalidades
+
+- 🏠 **Apresentação:** Hero section responsiva para recepção do usuário.
+- 🍕 **Menu Interativo:** Catálogo de pratos integrado diretamente ao carrinho.
+- 🛒 **Carrinho de Compras:** Adição, visualização e gestão de itens e totais do pedido.
+- 📖 **Sobre Nós:** Seção institucional apresentando a proposta do restaurante.
+- 🏷️ **Promoções:** Seção dedicada para destaque de ofertas especiais.
+- 📞 **Contato & Redes:** Informações de localização, redes sociais e links de atendimento.
+
+---
 
 ## 🛠️ Tecnologias Utilizadas
 
-    HTML
+- **React.js** (Componentização e gestão de estado)
+- **JavaScript (ES6+)**
+- **HTML5 & CSS3** (Layout responsivo e estilização)
+- **JSON** (Modelagem e manipulação de dados do menu)
 
-    CSS
+---
 
-    JavaScript
+## 🧠 Aprendizados e Evolução
 
-    React
+Este projeto marcou um ponto importante no meu aprendizado como desenvolvedor Front-end:
 
-    JSON
+- Prática intensa em **componentização e gerenciamento de estado** no React.
+- Consolidação de conceitos aprendidos durante meus estudos.
+- Uso eficiente de **IA generativa** como ferramenta de co-pilotagem para acelerar a refatoração e resolução de problemas.
+- Processo contínuo de refatoração e melhorias visuais/estruturais no código.
 
-## 🧠 Aprendizados
+---
 
-Esse projeto foi um marco pessoal:
+## 🚀 Como Executar o Projeto Localmente
 
-    Depois de 12 deploys, finalizei o site com sucesso.
+```bash
+# Clorar o repositório
+git clone [https://github.com/seu-usuario/crownfolio.git](https://github.com/seu-usuario/crownfolio.git)
 
-    A prática me ajudou a consolidar o que aprendi no curso.
+# Entrar na pasta do projeto
+cd crownfolio
 
-    Trabalhar com IA no processo acelerou meu entendimento e trouxe novas ideias.
+# Instalar as dependências
+npm install
 
-    Ainda tenho muito a aprender, mas esse projeto representa um grande passo na minha jornada como desenvolvedor.
+# Iniciar o servidor de desenvolvimento
+npm start
+```
+
+---
 
 ## 📬 Contato
 
-Adoro receber feedbacks que me ajudam a evoluir. Se quiser conversar sobre meus projetos, pode me encontrar em:
+Gosta do projeto ou tem alguma sugestão de melhoria? Fique à vontade para entrar em contato ou dar um star ⭐ no repositório!
 
-📱 : [**Instagram**](https://www.instagram.com/arthurcastro_99/)
+💻 [**LinkedIn**](https://www.linkedin.com/in/arthur-sc/)
 
-💻 : [**Linkedin**](https://www.linkedin.com/in/arthur-castro-b70a02223/)
+📷 [**Instagram**](https://www.instagram.com/arthurscdev/)
+
+📄 [**Currículo**](https://drive.google.com/file/d/1KWIg4bjw-WJLmqDow7XGlTTGh58OEewE/view)
+
+---

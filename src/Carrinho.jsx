@@ -7,7 +7,7 @@ const Carrinho = ({ aberto, onClose }) => {
 
   const total = cart.reduce(
     (acc, item) => acc + Number(item.preco) * item.quantidade,
-    0
+    0,
   );
 
   return (
@@ -50,7 +50,7 @@ const Carrinho = ({ aberto, onClose }) => {
         </p>
         <button onClick={clearCart}>Limpar carrinho</button>
         <div className="carrinhoFooter">
-          <button className="finalizarCompra">FInalizar ompra</button>
+          <button className="finalizarCompra">Finalizar compra</button>
         </div>
       </div>
     </>

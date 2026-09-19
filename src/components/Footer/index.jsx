@@ -1,5 +1,5 @@
-import "../Footer/footer.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import "../Footer/footer.css";
 
 const Footer = () => {
   return (
@@ -10,24 +10,22 @@ const Footer = () => {
             <h2>Contato</h2>
             <ul className="listaContato">
               <li>
-                <a
-                  href="https://www.instagram.com/arthurcastro_99/"
-                  target="_blank"
-                >
+                <a href="https://wa.me/5591998265505" target="_blank">
                   <FontAwesomeIcon icon="phone" size="3x" />
-                  55+ 00 99999-9999
                 </a>
               </li>
               <li>
                 <a href="https://www.google.com/maps" target="_blank">
                   <FontAwesomeIcon icon="home" size="3x" />
-                  Rua ali, depois logo ali, 123
                 </a>
               </li>
               <li>
-                <a href="mailto:arthurcastro092012@gmail.com" target="_blank">
+                <a
+                  href="mailto:arthurcastro092012@gmail.com"
+                  target="_blank"
+                  aria-label="Email"
+                >
                   <FontAwesomeIcon icon="envelope" size="3x" />
-                  crownfolio@gmail.com
                 </a>
               </li>
             </ul>
@@ -38,26 +36,29 @@ const Footer = () => {
             <ul className="listaSocias">
               <li>
                 <a
-                  href="https://www.instagram.com/arthurcastro_99/"
+                  href="https://www.instagram.com/arthurscdev/"
                   target="_blank"
+                  aria-label="Instagram"
                 >
                   <FontAwesomeIcon icon={["fab", "instagram"]} size="3x" />
-                  Instagram
                 </a>
               </li>
               <li>
                 <a
-                  href="https://www.linkedin.com/in/arthur-castro-b70a02223/"
+                  href="https://www.linkedin.com/in/arthur-sc/"
                   target="_blank"
+                  aria-label="Linkedin"
                 >
                   <FontAwesomeIcon icon={["fab", "linkedin"]} size="3x" />
-                  Linkedln
                 </a>
               </li>
               <li>
-                <a href="https://github.com/ArthurCastro99" target="_blank">
+                <a
+                  href="https://github.com/arthurscdev"
+                  target="_blank"
+                  aria-label="GitHub"
+                >
                   <FontAwesomeIcon icon={["fab", "github"]} size="3x" />
-                  GitHub
                 </a>
               </li>
             </ul>
@@ -65,7 +66,7 @@ const Footer = () => {
         </div>
 
         <div className="footerDireitos">
-          <p>@ 2025 - Todos os direitos reservados</p>-<a href="#">Arthur</a>
+          <a href="https://github.com/arthurscdev"> © 2026 Arthur</a>
         </div>
       </footer>
     </>

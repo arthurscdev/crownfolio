@@ -16,18 +16,14 @@ function App() {
         <Header onToggleCarrinho={() => setMostrarCarrinho(!mostrarCarrinho)} />
         <Main />
         <Footer />
-        {mostrarCarrinho && (
-          <>
-            <div
-              className={`overlay ${mostrarCarrinho ? "abrir" : "fechar"}`}
-              onClick={() => setMostrarCarrinho(false)}
-            ></div>
-            <Carrinho
-              aberto={mostrarCarrinho}
-              onClose={() => setMostrarCarrinho(false)}
-            />
-          </>
-        )}
+        <div
+          className={`overlay ${mostrarCarrinho ? "abrir" : "fechar"}`}
+          onClick={() => setMostrarCarrinho(false)}
+        ></div>
+        <Carrinho
+          aberto={mostrarCarrinho}
+          onClose={() => setMostrarCarrinho(false)}
+        />
       </CartProvider>
     </>
   );

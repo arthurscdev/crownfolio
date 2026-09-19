@@ -13,6 +13,9 @@ dist-ssr
 stats.html
 stats
 dist/
+.env
+.env.*
+!.env.example
 
 # Editor directories and files
 .vscode/*
