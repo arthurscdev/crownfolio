@@ -1,7 +1,6 @@
-import "./menu.css";
-import pratos from "./../../data/pratos.json";
 import Prato from "../../Prato";
-
+import pratos from "./../../data/pratos.json";
+import "./menu.css";
 
 const Menu = () => {
   return (

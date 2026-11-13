@@ -1,7 +1,7 @@
-import "./components/Menu/menu.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { CartContext } from "./CartContext";
 import { useContext } from "react";
+import { CartContext } from "./CartContext";
+import "./components/Menu/menu.css";
 
 const Prato = ({ prato }) => {
   const { addToCart } = useContext(CartContext);
@@ -16,6 +16,7 @@ const Prato = ({ prato }) => {
           />
           <div className="infoPrato">
             <h2 className="tituloPadrao">{prato.nome}</h2>
+            <span className="precoPrato">{prato.real}</span>
             <span className="precoPrato">{prato.preco}</span>
 
             <p className="ingredientePrato">{prato.ingredientes}</p>

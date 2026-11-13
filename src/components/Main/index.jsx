@@ -1,12 +1,12 @@
-import "./main.css";
+import Destaques from "../Destaque/index";
 import Menu from "../Menu/index";
 import SobreNos from "../SobreNos/index";
-import Destaques from "../Destaque/index";
+import "./main.css";
 
 const Main = () => {
   return (
     <>
-      <main className="main" id="main">
+      <main id="main">
         <div className="mainApresentacao">
           <h1 className="tituloPrincipal">Crownfolio</h1>
           <span className="apresentacaoLinha"></span>
@@ -17,9 +17,9 @@ const Main = () => {
             descubra promoções e aproveite a facilidade de pedir
           </p>
         </div>
+        <Destaques></Destaques>
         <Menu></Menu>
         <SobreNos></SobreNos>
-        <Destaques></Destaques>
       </main>
     </>
   );

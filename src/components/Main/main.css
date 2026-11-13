@@ -1,6 +1,6 @@
 /* Main geral */
 
-.main {
+main {
   width: 100vw;
   height: auto;
   background-color: var(--color-header);
@@ -9,7 +9,7 @@
 
 /* Apresentacao / Inicio */
 
-.main .mainApresentacao {
+main .mainApresentacao {
   min-height: 75vh;
   display: flex;
   justify-content: center;
@@ -20,7 +20,7 @@
   margin: auto;
 }
 
-.main .mainApresentacao::before {
+main .mainApresentacao::before {
   content: "";
   position: absolute;
   backdrop-filter: blur(3px);
@@ -29,12 +29,12 @@
   background-color: rgba(0, 0, 0, 0.5);
 }
 
-.main .mainApresentacao .tituloPrincipal {
+main .mainApresentacao .tituloPrincipal {
   font-size: 5rem;
   margin: 2rem 3rem 0;
 }
 
-.main .mainApresentacao .apresentacaoLinha {
+main .mainApresentacao .apresentacaoLinha {
   content: "";
   border: solid 1px white;
   width: 15rem;
@@ -43,34 +43,34 @@
   margin: 1rem 0 0 3rem;
 }
 
-.main .mainApresentacao .textoPadrao {
+main .mainApresentacao .textoPadrao {
   font-size: 1.5rem;
   margin: 3rem 3rem;
   color: white;
   width: 80vw;
 }
 
-.main .mainApresentacao .tituloPrincipal,
-.main .mainApresentacao .apresentacaoLinha,
-.main .mainApresentacao .textoPadrao {
+main .mainApresentacao .tituloPrincipal,
+main .mainApresentacao .apresentacaoLinha,
+main .mainApresentacao .textoPadrao {
   z-index: 2;
 }
 
 @media (max-width: 32rem) {
-  .main {
+  main {
     text-align: center;
   }
 
-  .main .mainApresentacao .tituloPrincipal {
+  main .mainApresentacao .tituloPrincipal {
     font-size: 3rem;
   }
 
-  .main .mainApresentacao .apresentacaoLinha {
+  main .mainApresentacao .apresentacaoLinha {
     width: 9rem;
     margin: 1rem auto 0;
   }
 
-  .main .mainApresentacao .textoPadrao {
+  main .mainApresentacao .textoPadrao {
     width: 90vw;
     margin: 2rem auto 0;
   }

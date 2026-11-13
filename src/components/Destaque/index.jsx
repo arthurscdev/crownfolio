@@ -1,25 +1,18 @@
+import Prato from "../../Prato";
+import pratos from "./../../data/pratos.json";
 import "./destaque.css";
 
 const Destaques = () => {
   return (
-    <section className="promocoes" id="promo">
-      <h2>Promoções</h2>
-      <div className="gridPromocoes">
-        <div className="cardPromo">
-          <img
-            src="menuImagens/carbonara.webp"
-            alt="Spaghetti Carbonara"
-          />
-          <h3>Spaghetti Carbonara</h3>
-          <p>de R$ 45 por R$ 35</p>
-        </div>
-        <div className="cardPromo">
-          <img src="menuImagens/classica.webp" alt="Lasanha" />
-          <h3>Lasanha</h3>
-          <p>De R$ 50 por R$ 40</p>
-        </div>
+    <>
+      <div className="mainMenu" id="menu">
+        <h2 className="tituloMenu">Destaque</h2>
+        {pratos.map((prato) => (
+          <Prato key={prato.id} prato={prato} />
+        ))}
       </div>
-    </section>
+      ;
+    </>
   );
 };
 

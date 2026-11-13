@@ -18,7 +18,7 @@ const Header = ({ onToggleCarrinho }) => {
   const totalItens = cart.reduce((acc, item) => acc + item.quantidade, 0);
   return (
     <>
-      <header className="header">
+      <header id="topo">
         <a href="/">
           <img
             src={`${import.meta.env.BASE_URL}imageLogo/logo.webp`}
@@ -26,7 +26,7 @@ const Header = ({ onToggleCarrinho }) => {
           />
         </a>
 
-        <nav className="headerMenu">
+        <nav>
           <input type="checkbox" id="menuHamburguer"></input>
 
           <label
