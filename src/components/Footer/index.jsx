@@ -4,7 +4,9 @@ const Footer = () => {
   return (
     <>
       <footer className="footer" id="contato">
-        <h2>Entre em contato</h2>
+        <h2>
+          Entre em contato para fazer a sua rezerva ou peça direto pelo site.
+        </h2>
 
         <div className="footerSecoes">
           <div className="contatos">
